@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio - Contact</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      height: 100px;
+    }
+    input[type="submit"] {
+      background-color: white;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>You can reach me through the following channels:</p>
+    <ul>
+      <li>Email: maduncan1@my.waketech.edu</li>
+      <li>Phone: 123-456-7890</li>
+    </ul>
+    <h2>Send me a message</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="contact">Contact Information:</label>
+      <input type="text" id="contact" name="contact" required>
+      <label for="message">Message or Inquiry:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    <p>Go back to the <a href="index.html">homepage</a>.</p>
+    <p>View my <a href="resume.html">resume</a>.</p>
+  </div>
+</body>
+</html>
